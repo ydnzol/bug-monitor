@@ -29,7 +29,7 @@ class Config(object):
         'port': 27017,
         'user': 'root',
         'passwd': 'langke',
-        'data_db': 'bug-monitor',
+        'data_db': 'bug_monitor',
         'table': 'SecurityProblem'
     }
 
