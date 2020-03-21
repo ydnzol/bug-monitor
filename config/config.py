@@ -23,8 +23,8 @@ CVE_API = {
 
 
 Wechat = {
-    "app_id": "",
-    "app_secret": ""
+    "app_id": "langke",
+    "app_secret": "langke,1234"
 }
 
 MONGODB_CFG = {
