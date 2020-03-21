@@ -2,9 +2,10 @@
 # -*- coding: utf-8 -*-
 # @Author  : mr.chery (mr.chery666@gmail.com)
 
-from struts import *
-from seebug import *
-from cve import *
+from struts import struts_check
+from struts import struts_init
+from seebug import seebug_crawler
+from cve import cve_crawler
 from threading import Timer
 
 
