@@ -30,7 +30,7 @@ class Config(object):
         'user': 'root',
         'passwd': 'langke',
         'data_db': 'bug_monitor',
-        'table': 'SecurityProblem'
+        'table': 'Vuln_info'
     }
 
 

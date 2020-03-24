@@ -1,12 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Author  : mr.chery (mr.chery666@gmail.com)
-
+import requests
 from struts import struts_check
 from struts import struts_init
 from seebug import seebug_crawler
 from cve import cve_crawler
 from threading import Timer
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
+
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 
 def struts_monitor():
