@@ -27,7 +27,7 @@ class Config(object):
     MONGODB_CFG = {
         'host': '127.0.0.1',
         'port': 27017,
-        'user': 'root',
+        'user': 'admin',
         'passwd': 'langke',
         'data_db': 'bug_monitor',
         'table': 'Vuln_info'
