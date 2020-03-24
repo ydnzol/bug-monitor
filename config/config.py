@@ -19,7 +19,7 @@ class Config(object):
         "password": "langke,1234"
     }
 
-    Wechat = {
+    WECHAT = {
         "app_id": "langke",
         "app_secret": "langke,1234"
     }

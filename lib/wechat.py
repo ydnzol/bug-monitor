@@ -6,8 +6,8 @@ from config.config import CFG
 
 robot = WeRoBot()
 
-robot.config["APP_ID"] = CFG.Wechat["app_id"]
-robot.config["APP_SECRET"] = CFG.Wechat["app_secret"]
+robot.config["APP_ID"] = CFG.WECHAT["app_id"]
+robot.config["APP_SECRET"] = CFG.WECHAT["app_secret"]
 
 client = robot.client
 
