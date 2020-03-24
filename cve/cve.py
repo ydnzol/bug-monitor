@@ -38,3 +38,7 @@ def cve_crawler():
         except Exception as e:
             exception(e)
             info("your cve api auth may be wrong")
+
+
+if __name__ == '__main__':
+    cve_crawler()

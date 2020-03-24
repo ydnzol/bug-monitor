@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Author  : mr.chery (mr.chery666@gmail.com)
+# @Author: mr.chery (mr.chery666@gmail.com)
+# @Modify: langke
 import requests
 from struts import struts_check
 from struts import struts_init
