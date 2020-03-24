@@ -5,7 +5,7 @@ import requests
 from struts import struts_check
 from struts import struts_init
 from seebug import seebug_crawler
-from cve import cve_crawler
+from cve.cve import cve_crawler
 from threading import Timer
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 
